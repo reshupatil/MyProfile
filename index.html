@@ -3,63 +3,112 @@
 
 <head>
     <title>My Profile</title>
+    
     <!--cdn link for fontawesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
+<style>
+p{
+    background-color: bisque;
+    text-align: end;
+}
 
+nav{
+
+    background-color:antiquewhite;
+text-align: center;
+}
+body{
+    background-image:url("resources/download\ \(1\).jpg");
+background-repeat:no-repeat;
+background-size: cover;
+}
+.contacts{
+    
+    margin-right: 30px;
+    margin-left: 10px;
+    
+}
+footer{
+    text-align: center;
+}
+.position{
+    display:inline-block;
+    width:220px;
+    height: 20px;
+    background-color: bisque;
+    position: relative;
+left:500px;
+}
+.nav{
+    display: inline-block;
+    width:150px;
+    height: 20px;
+    background-color: aqua;
+
+}
+.nav1{   
+     display: inline-block;
+    width:100px;
+    height: 20px;
+    background-color:aqua;
+}
+</style>
 
 </head>
 
 <body>
-    <h3> My Profile </h3>
+    
     <header>
 
         <div>
-            <p style="color:blueviolet;font-size: 20px;">
-                <i class="fa-solid fa-user"></i> &nbsp; Reshma Patil &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-                <i class="fa-solid fa-envelope"></i> &nbsp; somanjali.patil18@gmail.com
-                &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-                <i class="fa-solid fa-mobile-screen"></i> &nbsp; 7387182971
 
-            </p> 
+ <tr style="color:blueviolet;font-size: 20px;">
+    
+              <li class="position">  <i class="fa-solid fa-user"></i>&nbsp; Reshma Patil  </li>
+              <li class="position">  <i class="fa-solid fa-envelope"></i> &nbsp;somanjali.patil18@gmail.com</li>
+            
+              <li class="position">  <i class="fa-solid fa-mobile-screen"></i>&nbsp; 738 718 2971</li>
+ </tr>
+        
         </div>
 
     </header>
     <hr>
-
+<tr>
     <nav>
-        <a href="home.html" target="myframe"> Home </a> &nbsp;&nbsp;|&nbsp;&nbsp;
+        <li class="nav"><a href="home.html" target="myframe"> Home</a> </li>
 
-        <a href="tech_stack.html" target="myframe"> Tech stack</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+       <li class="nav1"> <a href="tech_stack.html" target="myframe">Tech stack</a> </li>
 
 
-        <a href="education.html" target="myframe">Education</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+       <li class="nav"> <a href="education.html" target="myframe">Education</a></li> 
+       
+       <li class="nav"><a href="project.html" target="myframe">Project Details</a> </li>
 
-        <a href="project.html" target="myframe">Project Details</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+        <li class="nav1"><a href="hobbies.html" target="myframe">Hobbies</a></li>
 
-        <a href="hobbies.html" target="myframe"> Hobbies </a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <li class="nav"><a href="D:\angular\MyProfile\personalDetails.html" target="myframe">Personal Details</a></li>
 
-        <a href="D:\angular\MyProfile\personalDetails.html" target="myframe">Personal
-            Details</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-
-        <a href="others.html" target="myframe">Others</a>
+       <li class="nav"> <a href="others.html" target="myframe">Others</a></li>
 
 
     </nav>
+</tr>
     <hr>
-    <div>
+    <div style="justify-content:center; display: flex;">
         <iframe width="900" height="600" name="myframe" src="home.html" style="border:none">
 
         </iframe>
 
     </div>
     <footer>
-        <p> Follow me:
+         Follow me:
             <a href="https://www.linkedin.com/"> <i class="fa-brands fa-linkedin fa-2x" aria-hidden="true"></i></a>
             <a href="https://www.facebook.com"><i class="fa-brands fa-facebook fa-2x"></i></a>
             <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-2x"></i></a>
             <a href="https://www.twitter.com"> <i class="fa-brands fa-twitter-square fa-2x"></i></a>
-        </p>
+        
 
     </footer>
 

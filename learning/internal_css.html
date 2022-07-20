@@ -3,40 +3,175 @@
 
 <head>
     <title> Internal CSS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <style>
-        /* p,h5 {
+        /* p,h5 { 
     color:blue;
     font-size: 30px;
 } */
         /* .para {
             color: blue;
             font-size: 30px;
+            text-transform: capitalize;
+        text-align: center;
         }
 
+    .para1{
+         background-color: aqua;
+        border-style:solid;
+    border-width: 5px;
+    border-color: blue;
+     border:5px solid aqua;
+     border-radius: 10px;
+    height: 30px;
+width: 250px;  
+padding-left: 10px;
+padding-top: 10px;
+padding-bottom: 7px;
+ margin-top: 200px;
+margin-bottom: 50px;
+margin-left:100px ;
+margin-right: 50px; 
+
+}
+.para2{
+         background-color: aqua;
+        border-style:solid;
+    border-width: 5px;
+    border-color: blue;
+     border:5px solid aqua;
+     border-radius: 10px;
+    height: 30px;
+width: 250px;  
+padding-left: 10px;
+padding-top: 10px;
+padding-bottom: 7px;
+margin-top: 100px;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
         h4 {
             color: red;
             font-size: 40px;
-        }
+        } 
         #heading_7, h3, .para{
             color:burlywood;
             
-        } */
+        } 
         * {
             color:burlywood;
             color: #ff8855;
 
             font-size: larger;
         }
+
+         body{
+            background-image:url("anjali.patil.jpg");
+            background-size:cover;
+        background-repeat:no-repeat;
+    font-family:roboto ;    
+    }
+         
+         ol{
+            list-style: decimal-leading-zero;
+         }
+         ul{list-style: lower-alpha;
+background-color: aquamarine;
+
+         }
+         li{
+            margin-bottom: 10px;
+         }
+         .hobbies{
+            margin-bottom: 20px;
+            background-color: aqua;
+         } */
+        h4 {
+            display: inline-block;
+            border: 1px solid red;
+            width: 100px;
+            height: 50px;
+        }
+
+        /* .div4{
+width: 200px;
+height: 100px;
+background-color:cadetblue ;
+display: none;
+}
+.div5{
+width: 200px;
+height:100px ;
+background-color: rgb(159 108 19);
+visibility: hidden;
+} */
+#overflow{
+    width: 200px;
+    height: 200px;
+    border: 2px solid cadetblue;
+    box-shadow: 5px 5px 5px;
+    overflow: auto;
+}
+
+        .div4 {
+            width: 150px;
+            height: 150px;
+            background-color: cadetblue;
+            
+            margin-top: 50px;
+            
+
+        }
+
+        .div5 {
+            width: 150px;
+            height: 150px;
+            background-color: rgb(177 29 29);
+    position: fixed;
+    left: 450px;
+        }
+        .div6{
+            width: 150px;
+            height: 150px;
+            background-color: blueviolet;
+        }
     </style>
+
 </head>
 
 <body>
 
-    <p class="para">This is Paragraph 1</p>
 
-    <p class="para">This is Paragraph 2</p>
+    <p> Hobbies:</p>
 
-    <p>This is Paragraph 3</p>
+    <ol>
+
+        <li class="hobbies"> Learning new things </li>
+        <li class="hobbies">Listening music </li>
+        <li class="hobbies"> Traveling </li>
+        <li class="hobbies"> Eating </li>
+    </ol>
+
+    <ul>
+
+        <li> Learning new things </li>
+        <li>Listening music </li>
+        <li> Traveling </li>
+        <li> Eating </li>
+    </ul>
+
+
+    <div class="div4">
+        <p>This is Paragraph 1</p>
+    </div>
+    <div class="div5">
+        <p>This is Paragraph 2</p>
+    </div>
+    <div class="div6">
+        <p>
+        this is Paragraph 9
+        </p>
+    </div>
+    <p><span>This is Paragraph 3</span></p>
 
     <h4>This is heading 4</h4>
 
@@ -49,6 +184,14 @@
     <h5 class="para">This is heading 5</h5>
 
     <h3>This is heading 3</h3>
+<p id="overflow">
+    Hands on experience on Angular CLI (command line interface)
+         Good hands on experience in HTML5,CSS,Javascript(ES6)and typescript 
+             Good amount of work done on Reactive forms in Angular8 and their validations
+             Extensively worked on CSS background,CSS positioning,text,border,Margin,Padding,Pseudo elements classes
+             Experience on working with virsion control system - GIT & GitHub
+</p>
+
 
 </body>
 

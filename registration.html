@@ -4,6 +4,28 @@
 <head>
 
     <title>Registratin Form </title>
+    <style>
+label {
+    text-shadow: 3px 3px 6px cadetblue;
+    
+}
+
+
+
+
+input[type="text"],input[type="number"],input[type="email"],textarea {
+    color: blue;
+    text-transform: capitalize;
+    border-radius: 5px;
+    
+}
+input[type="submit"]:hover, input[type="reset"]:hover{
+background-color: blue;
+}
+input:focus{
+    background-color: rgb(187, 193, 193);
+}
+    </style>
 </head>
 
 <body>
@@ -31,14 +53,14 @@
                 </tr>
                 <tr>
                     <td>
-                        <lable> Email </lable>
+                        <label> Email </label>
                     </td>
                     <td> <input type="email" required placeholder="Example:abc@gmail.com"></td>
 
                 </tr>
                 <tr>
                     <td>
-                        <lable> Password </lable>
+                        <label> Password </label>
                     </td>
                     <td> <input type="password" required></td>
 
@@ -50,7 +72,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <lable> Do you have bank account</lable>
+                        <label> Do you have bank account</label>
                     </td>
                     <td> <input type="text" value="Yes" disabled></td>
                 </tr>
@@ -157,7 +179,7 @@
             
                 <tr>
                     <td>
-                        <lable> Address </lable>
+                        <label> Address </label>
                     </td>
                     <td><textarea cols="30" rows="7"></textarea></td>
                 </tr>
